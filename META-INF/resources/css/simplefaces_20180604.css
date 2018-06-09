@@ -1,0 +1,27 @@
+.sf-autocomplete{
+	position:absolute;		
+	font-size:12px;
+	font-weight:bold;	
+	display:inline;
+	box-shadow:10px 10px 5px #888888; 
+	list-style-type: none;
+	border: solid thin silver;
+	background-color: #ffffff;
+	padding:0px;
+	margin:0px;
+	left:0px;
+	top:0px;
+}
+
+.sf-autocomplete > li{	
+	padding:5px;
+	border-bottom: solid thin silver;
+	cursor: pointer;
+	min-width: 75px;
+	min-height: 20px;
+	z-index: 100000 !important;	
+}
+
+.sf-autocomplete>li:hover {
+	background-color: silver;
+}
